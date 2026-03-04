@@ -1,8 +1,6 @@
 PYTHON SOCKET CHAT APPLICATION
 
 
-Description:
-------------
 This is a simple multi-client chat application built using
 Python socket programming and threading.
 
