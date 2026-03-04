@@ -1,6 +1,5 @@
-=========================================================
 PYTHON SOCKET CHAT APPLICATION
-=========================================================
+
 
 Description:
 ------------
@@ -16,27 +15,26 @@ It supports:
 - Persistent ban list using bans.txt
 
 
-=========================================================
+
 PROJECT FILES
-=========================================================
+
 
 server.py  -> Main chat server
 client.py  -> Chat client program
 bans.txt   -> Stores banned usernames (auto-created)
 
 
-=========================================================
+
 REQUIREMENTS
-=========================================================
+
 
 - Python 3.x
 - No external libraries needed
 - Works on Windows / Linux / macOS
 
 
-=========================================================
 HOW TO RUN
-=========================================================
+
 
 STEP 1: Start the Server
 
@@ -62,9 +60,9 @@ Open a new terminal for each user and run:
 Enter a nickname when prompted.
 
 
-=========================================================
+
 ADMIN LOGIN
-=========================================================
+
 
 To login as admin:
 
@@ -75,9 +73,8 @@ If password is incorrect:
 Connection will be refused.
 
 
-=========================================================
 USAGE
-=========================================================
+
 
 Normal Chat:
 ------------
@@ -108,9 +105,9 @@ When a user is banned:
 - They cannot reconnect
 
 
-=========================================================
+
 HOW IT WORKS
-=========================================================
+
 
 Server:
 -------
@@ -132,9 +129,9 @@ Client:
 - Parses admin commands locally
 
 
-=========================================================
+
 NOTES
-=========================================================
+
 
 - This application runs on localhost only (127.0.0.1)
 - To allow external connections, change server host to:
